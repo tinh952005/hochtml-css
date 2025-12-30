@@ -1,0 +1,10 @@
+.box{
+    /* text-align: center;
+    text-align: right;
+    text-align: justify; */
+    text-align-last: center;
+}
+
+.btn-wrap{
+    text-align: center;
+}

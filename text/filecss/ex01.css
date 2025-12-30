@@ -1,0 +1,54 @@
+/* color name
+hexa : #6kytu 
+rgb()
+hsl()
+*/
+
+.title {
+  color: rgb(31, 131, 131);
+}
+
+.descropstion {
+  color: rgba(31, 131, 131, 0.499);
+}
+
+/* 
+phan biet:
+-initial
+-inherit */
+
+.box .content h2 {
+  color: red;
+}
+
+.box .content h2:hover {
+  /* color: initial; */
+  color: inherit;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  color: aqua;
+  font-size: 1rem;
+}
+
+.box{
+  font-size: 1.1em;
+}
+
+.box .content{
+    font-size: 1.1em;
+}
+
+.box .content p {
+  font-size: 18p;
+  font-size: 18px;
+  font-size: 1mm;
+  font-size: 1cm;
+  font-size: 1em;
+  font-size: 150%;
+  font-size: 1.5em;
+}

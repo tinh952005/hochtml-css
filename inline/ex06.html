@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .table thead {
+        background-color: black;
+        color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action="http://api-gateway.fullstack.edu.vn/action_page.php"
+      method="get"
+    >
+      <!-- <div>
+        <label for="">Email</label>
+        <input type="email" name="email" placeholder="email....." />
+      </div>
+      <div>
+        <label for="">Mat khau</label>
+        <input type="password" name="password" placeholder="mat khau....." />
+      </div>
+      <button>dang nhap</button> -->
+
+      <div>
+        <label for="fullname">Ho va ten</label>
+        <input
+          id="fullname"
+          type="text"
+          name="fullname"
+          placeholder="Ho va ten...."
+          value="dangtinh"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="email" />
+      </div>
+
+      <div>
+        <label for="password">Mat khau</label>
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="mat khau"
+        />
+      </div>
+
+      <div>
+        <label for="age">Tuoi</label>
+        <input
+          id="age"
+          type="number"
+          name="age"
+          placeholder="tuoi"
+          min="18"
+          max="100"
+          step="0.1"
+        />
+      </div>
+
+      <div>
+        <label>Gioi tinh</label>
+        <label>
+          <input type="radio" name="gender" value="0" checked /> khong xac dinh
+        </label>
+        <label> <input type="radio" name="gender" value="1" /> nam </label>
+        <label> <input type="radio" name="gender" value="2" /> nu </label>
+      </div>
+
+      <div>
+        <label>Dia diem</label>
+        <label>
+          <input type="checkbox" name="source" value="unknown" /> khong xac dinh
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="google" checked /> google
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="facebook" /> facebook
+        </label>
+      </div>
+
+      <div>
+        <label for="avatar">Avatar</label>
+        <input id="avatar" type="file" name="avatar" />
+      </div>
+
+      <button>dang ky</button>
+
+      <div>
+        <label for="birthday">Sinh nhat </label>
+        <input id="birthday" type="date" name="birthday" />
+      </div>
+
+      <div>
+        <label for="price">Gia </label>
+        <input id="price" type="range" name="price" step="0.1" />
+      </div>
+
+      <div>
+        <label for="message">Tin nhan </label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="tin nhan...."
+        >
+tinh
+      tinh vip</textarea
+        >
+      </div>
+
+      <div>
+         <!-- multiple -->
+        <label for="provinces">Chon tinh/thanh pho </label>
+        <select name="provinces" id="provinces">
+          <option value="0" hidden>Chon tinh/ thanh pho</option>
+          <option value="1">Ha Noi</option>
+          <optgroup label="Mien Bac">
+            <option value="2">Thai Binh</option>
+            <option value="3">Nam Dinh</option>
+          </optgroup>
+          <optgroup label="Mien Trung">
+            <option value="4">Thanh Hoa</option>
+          </optgroup>
+          <optgroup label="Mien Nam">
+            <option value="5">TP.Ho Chi Minh</option>
+            <option value="6">Ca Mau</option>
+          </optgroup>
+        </select>
+      </div>
+      <button type="submit">Dang nhap</button>
+      <button type="reset"> Nhap lai</button>
+      <button type="button">button</button>
+    </form>
+  </body>
+</html>

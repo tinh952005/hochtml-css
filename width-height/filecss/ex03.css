@@ -1,0 +1,28 @@
+/* .content{
+    width: 600px;
+    height: 400px;
+    background: green;
+    max-width: 500px;
+} */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.box .image-box{
+    display: inline-block;
+    width: 30%;
+}
+
+.box .image-box img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content{
+    width: 500px;
+    height: 400px;
+    background: green;
+    min-width: 600px;
+}

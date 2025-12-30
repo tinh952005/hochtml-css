@@ -1,0 +1,9 @@
+.span{
+    border: 1px solid red;
+    width: 100px;
+    display: inline-block;
+}
+
+.img{
+    /* width: 120px;  */
+}

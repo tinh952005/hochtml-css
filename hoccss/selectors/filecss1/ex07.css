@@ -1,0 +1,13 @@
+/* *{
+    color: red;
+} */
+
+.content > *{
+    color: red;
+    border: 1px solid blue;
+}
+
+.content1 > *{
+    color: red;
+    border: 1px solid blue;
+}

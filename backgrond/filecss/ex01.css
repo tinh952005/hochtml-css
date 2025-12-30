@@ -1,0 +1,27 @@
+/*
+Cac thuoc tinh lien quan den background
+-background-color
+-background-image
+-background-position
+-background-repeat
+-background-size
+-background-attachment
+--background
+*/
+
+body{
+    height: 2000px;
+    /* background-color: aqua;
+    background-image: url(https://img1.kienthucvui.vn/uploads/2019/10/09/anh-bau-troi-xanh-ri-rat-dep_042100634.jpg);
+    background-repeat: no-repeat;
+    background-position: 30px 50px;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    background: aqua  url(https://img1.kienthucvui.vn/uploads/2019/10/09/anh-bau-troi-xanh-ri-rat-dep_042100634.jpg) no-repeat 0 0 / cover fixed;
+
+}
+
+/* .box{
+    background-color: antiquewhite;
+} */

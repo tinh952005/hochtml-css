@@ -1,0 +1,17 @@
+/* .box:hover{
+    opacity: 0.5;
+} */
+
+.box img:hover{
+    /* opacity: 0.5; */
+    /* filter: grayscale(0.5); den trang */
+    filter: blur(2px);
+}
+
+.galleries img{
+    filter: grayscale(1);
+}
+
+.galleries img:hover{
+    filter: initial;
+}
