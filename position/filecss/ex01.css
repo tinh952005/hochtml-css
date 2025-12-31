@@ -1,0 +1,47 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  margin: 30px auto;
+  position: relative;
+}
+
+.box .item {
+  padding: 10px;
+  border: 1px solid red;
+  background: green;
+  width: 120px;
+  color: white;
+}
+
+/* .box .item:nth-child(2){
+    position: relative;
+    top: 10px;
+    left: 20px;
+} */
+
+.box .item:nth-child(2) {
+  /* width: auto; */
+  /* height: 50px; */
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+  /* inset: 0; */
+}
+
+/*
+position : Thay đổi vị trí của 1 element
+- relative : vị trí tương đối
+- absolute : vị trí tuyết đối
+- fixed : vị trí có định khi scroll
+- static : mặc định không có position
+
+Các thuộc tính liên quan (Chỉ hoạt động khi có position - Trừ static)
+- top
+- left 
+- right
+- bottom
+- z- index
+*/
