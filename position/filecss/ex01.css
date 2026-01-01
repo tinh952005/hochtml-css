@@ -1,3 +1,7 @@
+body{
+  height: 2000px;
+}
+
 .box {
   width: 300px;
   height: 300px;
@@ -20,15 +24,32 @@
     left: 20px;
 } */
 
-.box .item:nth-child(2) {
-  /* width: auto; */
-  /* height: 50px; */
-  /* position: absolute; */
-  /* top: 0;
+/* .box .item:nth-child(2) {
+  width: auto;
+  height: 50px;
+  position: absolute;
+  top: 0;
   left: 0;
   bottom: 0;
-  right: 0; */
-  /* inset: 0; */
+  right: 0;
+  inset: 0;
+} */
+
+/* .box .item:nth-child(2){
+  position: fixed;
+  right: 0;
+  bottom: 0;
+} */
+
+.box .item:nth-child(2){
+  position: relative;
+  left: 10px;
+  top: 20px;
+  z-index: 1;
+}
+
+.box .item:nth-child(3){
+  position: relative;
 }
 
 /*
