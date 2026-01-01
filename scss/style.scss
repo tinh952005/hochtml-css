@@ -1,0 +1,36 @@
+html{
+    font-size: 62.5%;
+}
+/* 
+variables : biến
+nested code : các đoạn code lồng nhau
+*/
+
+$textColor: red;
+$background : blue;
+
+p{
+    color: $textColor;
+    padding: 2rem;
+    background-color: $background;
+}
+
+// header-inner
+// header-inner-text
+.header{
+    padding: 2rem;
+    background-color: black;
+    &-inner{
+        color: white;
+        &-text{
+            color: blue;
+            &:hover{
+            color: orange;
+        }
+        }
+        &:hover{
+            color: red;
+        }
+    }
+    // $-inner-text{}
+}

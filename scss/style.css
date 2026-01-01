@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+
+/* 
+variables : biến
+nested code : các đoạn code lồng nhau
+*/
+p {
+  color: red;
+  padding: 2rem;
+  background-color: blue;
+}
+
+.header {
+  padding: 2rem;
+  background-color: black;
+}
+.header-inner {
+  color: white;
+}
+.header-inner-text {
+  color: blue;
+}
+.header-inner-text:hover {
+  color: orange;
+}
+.header-inner:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
