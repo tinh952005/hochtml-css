@@ -36,6 +36,14 @@
 + space-between
 + space-evenly
 
-
 -gap : chỉnh khoảng cách giữa các hàng và cột
 # Các thuộc tính trong nhóm Flex Item
+
+- flex-grow : Giãn đều các item để lấp vào còn trống trong flex container
+- flex-shrink
+- flex-basis
++ giống width nếu flex-direction la row
++ giống height nếu flex-direction la column
++ Chặn bởi min-width và max-width nếu flex-direction là row
++ Chặn bởi min-height và max-height nếu flex-direction là column
+
